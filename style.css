@@ -1,0 +1,55 @@
+*, html, body{
+     margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background: rgb(0, 0, 0);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+@keyframes glowing{
+    0% {color: whitesmoke;}
+    50%{color: blue;}
+    100%{color: white;}
+}
+
+#glowing-logo{
+    animation: glowing 1s infinite;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.gambar{ 
+        display: flex;
+        position: center;
+        gap: 20px;
+        width: 20px;
+        align-items: center;
+        padding-top:15px;
+        padding-left: none;
+        margin-right: 15px;
+}
+.gambar img{
+        width: 300px;
+        weight: 200px;
+        margin-right: 20px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* Ganti dengan kode warna yang diinginkan */
+    color: #ffffff; /* Ganti dengan kode warna teks yang diinginkan */
+    text-decoration: none;
+    border-radius: 5px;
+}
